@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobile_Store.MainPage"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout Padding="5, 5, 5, 5" BackgroundColor="White">
+        <Image Source="image1.png" />
+        <Grid>
+            <Image Source="image2.png" Margin="0, 20"/>
+            <Label Text="Le Mousse - косметика из лучших натуральных масел" Margin="35" TextColor="Black" HorizontalOptions="Center" FontSize="Small" HorizontalTextAlignment="Center"/>
+        </Grid>
+        <Label Text="Каталог" Margin="5" TextColor="Black" HorizontalOptions="Center" FontSize="Medium"/>
+        <Grid>
+            <Image Source="image4.png" HorizontalOptions="Start" Grid.Column="0" Grid.Row="0" Margin="10"/>
+            <Label Text="СКРАБ ДЛЯ ТЕЛА" Margin="13, 75" TextColor="Black" HorizontalOptions="Start" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Italic" Grid.Column="0" Grid.Row="0"/>
+            <Image Source="image14.png" HorizontalOptions="End" Grid.Column="1" Grid.Row="0" Margin="10"/> 
+            <Label Text="МОЛОЧКО ДЛЯ ТЕЛА" Margin="20, 70, 0, 10" TextColor="Black" HorizontalOptions="End" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Italic" Grid.Column="1" Grid.Row="0"/>
+            <Image Source="image12.png" HorizontalOptions="Start" Grid.Column="0" Grid.Row="1" Margin="10"/>
+            <Label Text="СОЛЬ ДЛЯ ВАННЫ" Margin="9, 75" TextColor="Black" HorizontalOptions="Start" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Italic" Grid.Column="0" Grid.Row="1"/>
+            <Image Source="image11.png" HorizontalOptions="End" Grid.Column="1" Grid.Row="1" Margin="10"/>
+            <Label Text="ГЕЛЬ ДЛЯ ДУША" Margin="10, 75" TextColor="Black" HorizontalOptions="End" FontSize="Small" HorizontalTextAlignment="Center" FontAttributes="Italic" Grid.Column="1" Grid.Row="1"/>
+        </Grid>
+        <Grid>
+            <Image Source="image9.png" HorizontalOptions="Start" Grid.Column="0" Grid.Row="0" Margin="40, 0"/>
+            <Button Text="Главная" TextColor="Black" BackgroundColor="White" HorizontalOptions="Start" Margin="15,0" FontSize="12" FontAttributes="Italic" Grid.Column="0" Grid.Row="1"/>
+            <Image Source="image8.png" HorizontalOptions="Start" Grid.Column="1" Grid.Row="0" Margin="30, 0"/>
+            <Button Text="Корзина" TextColor="Black" BackgroundColor="White" HorizontalOptions="Start" Margin="10,0" FontSize="12" FontAttributes="Italic" Grid.Column="1" Grid.Row="1"/>
+            <Image Source="Rectangle1.png" HorizontalOptions="Start" Grid.Column="2" Grid.Row="0" Margin="40,0"/>
+            <Button Text="Профиль" Clicked="Button1_Click" TextColor="Black" BackgroundColor="White" HorizontalOptions="Start" Margin="10,0" FontSize="12" FontAttributes="Italic" Grid.Column="2" Grid.Row="1"/>
+        </Grid>
+    </StackLayout>
+</ContentPage>
